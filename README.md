@@ -1,0 +1,2 @@
+# getHWInfo
+gets hardware info
