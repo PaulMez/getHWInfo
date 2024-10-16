@@ -7,5 +7,5 @@ curl "https://raw.githubusercontent.com/PaulMez/getHWInfo/main/windows/PaulMezHW
 ```
 or
 ```
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/PaulMez/getHWInfo/main/windows/PaulMezHWInfo.ps1" -OutFile "C:\PaulMezHWInfo.ps1"; & "C:\PaulMezHWInfo.ps1"
+Set-ExecutionPolicy Bypass -Scope Process -Force; & Invoke-WebRequest -Uri "https://raw.githubusercontent.com/PaulMez/getHWInfo/main/windows/PaulMezHWInfo.ps1" -OutFile "C:\PaulMezHWInfo.ps1"; & "C:\PaulMezHWInfo.ps1"
 ```
